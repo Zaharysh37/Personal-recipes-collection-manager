@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Состояние нажатия -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#80CCCCCC" /> <!-- Полупрозрачный серый -->
+            <stroke
+                android:width="3dp"
+                android:color="@color/light_grey" /> <!-- Цвет обводки -->
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+
+    <!-- Обычное состояние -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="3dp"
+                android:color="@color/light_grey" /> <!-- Цвет обводки -->
+            <corners android:radius="10dp" />
+
+        </shape>
+    </item>
+</selector>
